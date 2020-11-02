@@ -9,10 +9,10 @@ The purpose of this project is to
 To acheive the two goals, pandas and matplotlib are applied as the main tools for the analysis. In the initial step, pd.read_csv is used to read the csv files and pd.merge is used for merge the two datasets. For the first technical deliverable, the groupby and sum function are beling applied for purpose of getting total rides, total drivers, and total fares for each city type. After calculated the total and average value for all metrics by each city type, we created a PyBer summary DataFrame that includes Total Rides, Toral Drivers, Total Fares, average Fare per Ride and Average Fare per Driver. The last step was to delete the indext name and formate the DataFrame by correcting Number format (adding dollar sign etc.). 
 
 Following is the final result for Technical Delieverable 1: Get A Summary DataFrame 
-![Deliverable1](https://github.com/Zoeyyoez/Pyber-Analysis/blob/master/images/Deliverable1.png)
+- ![Deliverable1](https://github.com/Zoeyyoez/Pyber-Analysis/blob/master/images/Deliverable1.png)
 
 Base on the DataFrame, it is indicated that the larger the volume of total rides the more drivers and more total fares. However, the larger the volume of rider the lower the average fare per rider and average fare per driver. 
-![Deliverable2](https://github.com/Zoeyyoez/Pyber-Analysis/blob/master/images/Deliverable2.png)
+- ![Deliverable2](https://github.com/Zoeyyoez/Pyber-Analysis/blob/master/images/Deliverable2.png)
 
 To plot for the Technical Delierable 2, we used rename, set_index, drop and groupby function to reorganize the DataFrame, and applied matplotlib to generate the line graph to showcase the changes of fares from 1/6/2019 to 4/28/2019. The graph also demonstrates that the total fares in urban cities has even exceeded the sum of rural cities and suburban cities. 
 
